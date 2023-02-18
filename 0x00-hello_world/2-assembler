@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFIL > iE
+gcc -S $CFIL > s
