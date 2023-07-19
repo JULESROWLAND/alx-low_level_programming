@@ -11,7 +11,7 @@ void print_alphabet(void)
 	char letts[] = "abcdefjhijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i <= 26; i++)
+	for (i = 0; i <= 25; i++)
 	{
 		_putchar(letts[i]);
 	}
