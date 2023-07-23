@@ -6,13 +6,16 @@
  */
 int main(void)
 {
-	char let[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char let[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i <= 0; i++)
-		{
-			putchar(let[50]);
-		}
+	for (i = 0; i <= 53; i++)
+	{
+	
+	putchar(let[i]);
+	
+	}
+
 	putchar('\n');
 	return (0);
 }
