@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 0; i < 53; i++)
 	{
-	
+
 	putchar(let[i]);
-	
+
 	}
 
 	putchar('\n');
