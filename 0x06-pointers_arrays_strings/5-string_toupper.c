@@ -1,20 +1,21 @@
 #include "main.h"
+
 /**
- * *string_toupper - This converts string from lowercase to uppercase
- * @arr: This takes a string data
- * Return: a character
+ * *string_toupper - Converts lower to upper
+ * @a: takes strings data
+ * Return: value of character
  */
-char *string_toupper(char *arr)
+char *string_toupper(char *a)
 {
 	int i;
 
-	i =0;
-	while (arr[i] != '\n')
+	for (i = 0; a[i] != '\0'; i++)
 	{
-		if (arr[i] >= 97 && arr[i] <= 122)
-			arr[i] = arr[i] - 32;
-		
-		i++;
+	if (a[i] >= 97 && a[i] <= 122)
+	{
+		a[i] = a[i] - 32;
 	}
-	return (arr);
+
+	}
+	return (a);
 }
