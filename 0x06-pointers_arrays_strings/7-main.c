@@ -6,6 +6,7 @@
  *
  * Return: Always 0.
  */
+char *leet(char *);
 int main(void)
 {
 	char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
