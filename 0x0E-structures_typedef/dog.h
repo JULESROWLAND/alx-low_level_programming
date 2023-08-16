@@ -6,6 +6,7 @@
  * @name: This takes a pointer to a character
  * @age: This takes a float argument
  * @owner: This takes a pointer to a character argument
+ * dog_t - This is a Typedef struct datatype
  */
 struct dog
 {
@@ -15,4 +16,5 @@ struct dog
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+typedef struct dog dog_t;
 #endif
